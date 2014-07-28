@@ -13,6 +13,7 @@ def index
   def new
     @pin = Pin.new
   end
+  #current_user.pins.build __ to use instead
 
   def edit
   end
